@@ -9,6 +9,7 @@
 /coverage
 
 # next.git 
+/.next/
 /out/
 
 # production
