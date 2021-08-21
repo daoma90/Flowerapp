@@ -530,7 +530,7 @@ var FlowerImage = __webpack_require__(688);
 const GridContainer = external_styled_components_default()(external_framer_motion_.motion.div).withConfig({
   displayName: "style__GridContainer",
   componentId: "sc-qcoymr-0"
-})(["width:100vw;height:100vh;max-height:100%;max-width:100%;display:flex;justify-content:center;align-items:center;@media (max-width:1000px){padding:10px 0 10px 0;max-height:none;height:100%;}"]);
+})(["min-height:100vh;display:flex;justify-content:center;align-items:center;@media (max-width:1000px){padding:10px 0 10px 0;max-height:none;height:100%;}@media (max-height:900px){margin:50px;}"]);
 const Grid = external_styled_components_default().div.withConfig({
   displayName: "style__Grid",
   componentId: "sc-qcoymr-1"

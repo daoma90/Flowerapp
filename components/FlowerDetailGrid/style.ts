@@ -12,10 +12,11 @@ import {
 import { Slabo } from "../../constants/text";
 
 export const GridContainer = styled(motion.div)`
-  width: 100vw;
-  height: 100vh;
-  max-height: 100%;
-  max-width: 100%;
+  // width: 100vw;
+  // height: 100vh;
+  // max-height: 100%;
+  // max-width: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +25,10 @@ export const GridContainer = styled(motion.div)`
     padding: 10px 0 10px 0;
     max-height: none;
     height: 100%;
+  }
+
+  @media (max-height: 900px) {
+    margin: 50px;
   }
 `;
 
