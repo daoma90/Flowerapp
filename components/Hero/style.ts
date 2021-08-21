@@ -56,6 +56,11 @@ export const HeaderContainer = styled.div`
     grid-row-start: 2;
     grid-row-end: 3;
   }
+
+  @media (max-height: 900px) {
+   
+    grid-row-end 8;
+  }
 `;
 
 export const HeroText = styled(motion.h1)`
@@ -140,6 +145,9 @@ export const Image3 = styled(ImageContainer)`
   @media (max-width: 855px) {
     grid-row-end: 5;
   }
+  @media (max-height: 900px) {
+    grid-row-end: 8;
+  }
 `;
 
 export const Image4 = styled(ImageContainer)`
@@ -161,6 +169,10 @@ export const Image6 = styled(ImageContainer)`
   grid-column-end: 11;
   grid-row-start: 7;
   grid-row-end: end;
+
+  @media (max-height: 900px) {
+    grid-row-start: 8;
+  }
 `;
 export const Image7 = styled(ImageContainer)`
   grid-column-start: 11;
