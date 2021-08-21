@@ -5,7 +5,7 @@ import { Comment } from "../context/CommentContextTypes";
 import { CommentsProvider, useComments } from "../context/CommentsContext";
 import { getComments } from "../lib/commentsAPI";
 import { getAllFlowers, getFlower } from "../lib/flowerAPI";
-import { Flower } from "../types/types";
+import { Flower } from "../types/flowerTypes";
 
 interface Props {
   flower: Flower;

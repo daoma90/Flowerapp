@@ -5,7 +5,6 @@ export const GridItemContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  // width: 240px;
   position: relative;
   margin-bottom: 50px;
   cursor: pointer;
@@ -13,7 +12,6 @@ export const GridItemContainer = styled(motion.div)`
 `;
 
 export const ImageContainer = styled(motion.div)`
-  // width: 240px;
   width: 100%;
   height: 240px;
 `;

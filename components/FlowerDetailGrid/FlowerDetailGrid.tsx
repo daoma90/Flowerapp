@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Flower } from "../../types/types";
+import { Flower } from "../../types/flowerTypes";
 import AddComment from "../AddComment/AddComment";
 import Comments from "../Comments/Comments";
 import FlowerDetails from "../FlowerDetails/FlowerDetails";

@@ -9,6 +9,7 @@ import {
   colorLightGrey,
   colorRed,
 } from "../../constants/colors";
+import { Slabo } from "../../constants/text";
 
 export const GridContainer = styled(motion.div)`
   width: 100vw;
@@ -57,12 +58,6 @@ export const CardContainer = styled(motion.div)`
   @media (max-width: 1000px) {
     overflow: visible;
     margin: 10px 0 10px 0;
-    // &:first-child {
-    //   margin-top: 20px;
-    // }
-    // &:last-child {
-    //   margin-bottom: 20px;
-    // }
   }
 `;
 
@@ -111,18 +106,13 @@ export const ImageContainer = styled(CardContainer)`
 `;
 
 export const FlowerName = styled.h1`
-  font-family: slabo-13px;
-  font-weight: 200;
-  // font-size: 4rem;
+  ${Slabo}
   font-size: 5vh;
-  margin: 0;
   color: white;
 `;
 
 export const FlowerNameLatin = styled.h2`
-  font-family: slabo-13px;
-  font-weight: 200;
+  ${Slabo}
   font-size: 4vh;
-  margin: 0;
   color: white;
 `;

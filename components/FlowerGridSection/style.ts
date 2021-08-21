@@ -33,8 +33,6 @@ export const Headline = styled(motion.h2)`
     margin-bottom: 15px;
   }
   @media (max-width: 500px) {
-    // font-size: 2rem;
-    // margin-bottom: 15px;
     display: none;
   }
 `;
@@ -78,7 +76,6 @@ export const FilterButtonContainer = styled.div`
 
 export const Grid = styled(motion.ul)`
   display: grid;
-  // grid-gap: 78px;
   grid-gap: 3vw;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 240px));

@@ -10,8 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-family: slabo-13px;
-  font-weight: 200;
+  ${Slabo}
   font-size: 1.2rem;
   color: white;
   margin: 15px;
@@ -21,15 +20,11 @@ export const Title = styled.h3`
 export const CommentsContainer = styled.ul`
   height: 100%;
   overflow: auto;
-  // max-height: 20%;
   width: 100%;
   margin-bottom: 15px;
+  margin-top: 0;
   padding-left: 0;
   list-style-type: none;
-
-  // @media (max-width: 1000px) {
-  //   max-height: 70vh;
-  // }
 
   ::-webkit-scrollbar {
     width: 5px;

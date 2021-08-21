@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { colorGreen, colorRed, colorYellow } from "../../constants/colors";
 import { RoundedButton } from "../../styles/globals";
-import { Flower } from "../../types/types";
+import { Flower } from "../../types/flowerTypes";
 import GridItem from "../GridItem/GridItem";
 import {
   FilterContainer,

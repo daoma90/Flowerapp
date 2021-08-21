@@ -29,10 +29,12 @@ export const Title = styled.p`
 
 export const Content = styled.p`
   max-width: 230px;
-
   ${Slabo}
   font-size: 1rem;
   margin-bottom: 5px;
+  @media (max-width: 1000px) {
+    max-width: 100%;
+  }
 `;
 
 export const CreatedDetailsContainer = styled.div`

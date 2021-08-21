@@ -3,7 +3,7 @@ import { FC } from "react";
 import FlowerGridSection from "../components/FlowerGridSection/FlowerGridSection";
 import Hero from "../components/Hero/Hero";
 import { getAllFlowers } from "../lib/flowerAPI";
-import { Flower } from "../types/types";
+import { Flower } from "../types/flowerTypes";
 
 interface Props {
   flowers: Flower[];

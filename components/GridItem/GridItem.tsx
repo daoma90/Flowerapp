@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { useRouter } from "next/router";
-import { Flower } from "../../types/types";
+import { Flower } from "../../types/flowerTypes";
 import FlowerImage from "../FlowerImage/FlowerImage";
 import {
   FlowerName,
